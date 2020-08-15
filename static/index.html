@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/common.css">
+</head>
+<body>
+    <div id="guard"></div>
+
+    <!--<section>
+
+
+    </section>-->
+    <div id="hdr-evolve">
+        <h1 class="header header-at-top" id="h">
+            Dulang has evolved
+        </h1>
+
+
+    </div>
+    <div id="cons" style="">
+        <section>
+
+                <img src="/static/logo.svg" style="width: 30vw; align-self: center; z-index: 3; background: #121212"/>
+
+
+
+        </section>
+
+        <section onclick="lightning()">
+            <div>
+                speedUp by 400%
+            </div>
+            <div>
+                by AOT optimized compilation we have acquired astounding performance
+            </div>
+            <canvas id="backgr"></canvas>
+        </section>
+        <section>
+            <div>
+                Type check at compile-time
+            </div>
+
+            <div>
+                all the type errors will be eliminated prior to launch
+            </div>
+        </section>
+        <section>
+            <div>
+                Still flexible and consize
+            </div>
+
+            <div>
+                unlike most languages Dulang has not gained verbose when changed to strictly typed: most types are inferred automatically
+            </div>
+        </section>
+        <section>
+            <div id="try">Try it yourself</div>
+            <div>
+                <a style="text-decoration: underline; color: #9fcdff" href="/download">
+                    Now available on all platforms via docker
+                </a>
+            </div>
+            <div id="try-it">
+                or run some code in form below
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+
+
+
+    <div style="z-index: 10">
+        <div class="test-code-wrapper" ungone="true">
+            <div class = "test-code">
+                <div id="code-wrapper">
+                    <textarea id="code" spellcheck="false"></textarea>
+                    <div id="code-render"></div>
+                </div>
+            </div>
+        </div>
+        <div class="launch-button">Launch me!</div>
+    </div>
+    <div style="color:#9fcdff; margin: 2rem" id="responser">
+
+    </div>
+
+
+    <script src="static/ProgramAnalysis/textprocess.js"></script>
+    <script src="static/ProgramAnalysis/HighLight.js"></script>
+    <script src="static/ProgramAnalysis/AstByLine.js"></script>
+    <script>
+        document.getElementById("code").oninput = edit;
+        /*fetch("/load").then(r=>r.text()).then(r=>{
+            document.getElementById("code").value = r;
+            document.getElementById("code").oninput({data: ""});
+        })*/
+        document.querySelector(".launch-button").onclick = execute;
+        document.getElementById("try-it").onclick = ()=>{
+            let position = Number(document.getElementById("code").scrollTop);
+            document.getElementById("code").scrollIntoView()
+        }
+    </script>
+    <script src="static/dulang_os.js"></script>
+
+</body>
+</html>

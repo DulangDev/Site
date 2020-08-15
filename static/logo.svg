@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1686px" height="1309px" viewBox="0 0 1686 1309" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>logo_3 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo_3-2">
+            <g id="logo_3">
+                <g id="Rectangle-2" fill="#212121">
+                    <rect id="Rectangle" x="0" y="0" width="1686" height="1309"></rect>
+                </g>
+                <path d="M699.965439,690.278784 L697.602992,337.457622 L818.883612,568.448008 L940.239564,443.454152 L940.239564,620.662805 L941.870479,620.190271 L940.074766,622.05489 L941.602992,971.457622 L821.888059,744.77673 L699.541235,871.81832 L699.541235,690.40169 L699.965439,690.278784 Z" id="Triangle-4" fill="#9FCDFF" transform="translate(819.736735, 654.457622) rotate(26.000000) translate(-819.736735, -654.457622) "></path>
+                <path d="M259.696429,666.5 L570.303571,442.5" id="Line" stroke="#9FCDFF" stroke-width="85" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M259.696429,891.5 L570.303571,667.5" id="Line" stroke="#9FCDFF" stroke-width="85" stroke-linecap="round" stroke-linejoin="bevel" transform="translate(415.000000, 779.500000) scale(1, -1) translate(-415.000000, -779.500000) "></path>
+                <path d="M1086.69643,891.5 L1397.30357,667.5" id="Line" stroke="#9FCDFF" stroke-width="85" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M1086.69643,666.5 L1397.30357,442.5" id="Line" stroke="#9FCDFF" stroke-width="85" stroke-linecap="round" stroke-linejoin="bevel" transform="translate(1242.000000, 554.500000) scale(-1, 1) translate(-1242.000000, -554.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
