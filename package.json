@@ -66,5 +66,6 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "pwd": "ebu3ahweub4V"
 }
